@@ -3,11 +3,47 @@
 <head>
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-</head>
+
+    <style>
+      body {
+          margin-top: 20px; /* Replace with your desired margin value */
+      }
+
+      h1, h2, p {
+        font-family: "Source Sans Pro", sans-serif;
+      }
+
+      h2 {
+        padding: 10px;
+      }
+
+      form input,
+      form label {
+          font-family: "Source Sans Pro", sans-serif; /* Replace with your desired font family */
+          font-size: 16px; /* Replace with your desired font size */
+      }
+
+      .logo-image {
+            display: block;
+            margin: 0 auto; /* Center the image horizontally */
+            width: 300px; /* Adjust the width to your desired size */
+        }
+    </style>
+
+  </head>
 <body>
     <div class="container">
-        <h1>REC Database Cleaner</h1>
-        
+
+      <!-- Logo -->
+      <a href="https://myforefront.org/">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo-image" >
+      </a>
+      
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center" style="color:rgb(100,100,100)">
+                <h2>Racial Equity Collective Database Cleaner</h2>
+            </div>
+        </div>
 
         <!-- Flash messages -->
         <div id="flash-messages" data-messages="{{ messages|tojson }}">
@@ -22,12 +58,16 @@
                 </ul>
               {% endif %}
             {% endwith %}
-          </div>
+        </div>
         
-        <form action="/" method="post" enctype="multipart/form-data">
-            <input type="file" name="file">
-            <input type="submit" value="Download Processed Database">
-        </form>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="/" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file" class="form-control mb-3" accept=".xlsx, .xls" value="Upload File">
+                    <input type="submit" value="Download Processed Database" class="btn btn-primary rounded" style="background-color:#1e93d1; border-color:#1e93d1">
+                </form>
+            </div>
+        </div>
     </div>
 
     <!-- Include Bootstrap JavaScript -->
@@ -60,4 +100,5 @@
     </script>
 </body>
 </html>
+
 

@@ -1,4 +1,13 @@
-from flask import Flask, render_template, request, redirect, url_for, send_from_directory, flash, get_flashed_messages
+from flask import (
+    Flask,
+    render_template,
+    request,
+    redirect,
+    url_for,
+    send_from_directory,
+    flash,
+    get_flashed_messages,
+)
 import os
 import sys
 import pandas as pd
@@ -7,7 +16,8 @@ from cleaner import clean_REC_df
 import webbrowser
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # Set your secret key
+app.secret_key = "your_secret_key_here"  # Set your secret key
+
 
 def get_fullpath():
     """
@@ -15,7 +25,7 @@ def get_fullpath():
 
     :return (string): Full file path for application working directory.
     """
-    if getattr(sys, 'frozen', False):
+    if getattr(sys, "frozen", False):
         # When running as an executable with PyInstaller
         base_path = sys._MEIPASS
     else:
@@ -45,12 +55,15 @@ def main():
             df = clean_REC_df(fullpath, inpath)
             df.to_excel(full_outpath, index=False)
 
-            encoded_filepath = urllib.parse.quote_plus(full_outpath)  # Encode the file path
+            encoded_filepath = urllib.parse.quote_plus(
+                full_outpath
+            )  # Encode the file path
 
-            return redirect(url_for('download_file', encoded_filepath=encoded_filepath))
+            return redirect(url_for("download_file", encoded_filepath=encoded_filepath))
 
     messages = get_flashed_messages()
     return render_template("index.html", messages=messages)
+
 
 @app.route("/download/<path:encoded_filepath>")
 def download_file(encoded_filepath):
@@ -58,6 +71,7 @@ def download_file(encoded_filepath):
     directory, filename = os.path.split(filepath)
 
     return send_from_directory(directory, filename, as_attachment=True)
+
 
 if __name__ == "__main__":
     url = "http://127.0.0.1:5000"
