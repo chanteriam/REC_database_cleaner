@@ -1,0 +1,3 @@
+recursive-include app/input *
+recursive-include app/output *
+include app/forefront_database_dictionary.csv
