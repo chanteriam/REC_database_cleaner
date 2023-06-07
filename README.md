@@ -1,1 +1,1 @@
-# REC_database_cleaner
+# Forefront Racial Equity Collective Database Cleaner
