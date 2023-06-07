@@ -6,6 +6,7 @@ from flask import (
     url_for,
     send_from_directory,
     flash,
+    send_file,
     get_flashed_messages,
 )
 import os
@@ -70,7 +71,8 @@ def download_file(encoded_filepath):
     filepath = urllib.parse.unquote_plus(encoded_filepath)  # Decode the file path
     directory, filename = os.path.split(filepath)
 
-    return send_from_directory(directory, filename, as_attachment=True)
+    cleaned_filename = os.path.splitext(filename)[0] + "_cleaned.xlsx"
+    return send_file(filepath, as_attachment=True, download_name=cleaned_filename)
 
 
 if __name__ == "__main__":
