@@ -1,9 +1,8 @@
-﻿RecipientLastName,Recipient Last Name
-RecipientFirstName,Recipient First Name
-RecipientEmail,Recipient Email
+﻿RecipientFirstName,REC Invited Organization
+RecipientEmail,REC Respondent Email
 Finished,Completed Survey
 Q2,Screener: Racial Equity Work
-Q3,Screener: Direct Services
+Q3,Screener: Type of Equity Work
 Q4,Screener: Work in IL
 Q5,Organization: Account Name
 Q6,Organization: Acronym
@@ -27,7 +26,7 @@ Q17_1,Program 1 Name
 Q18,Program 1 Industry Area
 Q19,Program 1 Equity Topics
 Q29,Program 1 Description
-Q30,Program 1  Years Operational
+Q30,Program 1 Years Operational
 Q17_6,Program 2 Name
 Q20,Program 2 Industry Area
 Q21,Program 2 Equity Topics
@@ -37,12 +36,12 @@ Q17_7,Program 3 Name
 Q22,Program 3 Industry Area
 Q23,Program 3 Equity Topics
 Q33,Program 3 Description
-Q34,Program 3  Years Operational
+Q34,Program 3 Years Operational
 Q17_8,Program 4 Name
 Q24,Program 4 Industry Area
 Q25,Program 4 Equity Topics
 Q35,Program 4 Description
-Q36,Program 4  Years Operational
+Q36,Program 4 Years Operational
 Q17_9,Program 5 Name
 Q26,Program 5 Industry Area
 Q27,Program 5 Equity Topics

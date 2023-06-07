@@ -7,7 +7,7 @@ VARIABLE_DICTIONARY = "forefront_database_dictionary.csv"
 
 def read_variable_dict():
     """
-    Creates a mapping of the survey question column names to updated dabase 
+    Creates a mapping of the survey question column names to updated dabase
     names based on the REC variable dictionary.
 
     :param fullpath (string): Path to application working directory.
@@ -15,7 +15,7 @@ def read_variable_dict():
     """
     variable_dict = {}  # Store dictionary mapping question to variable
 
-    if getattr(sys, 'frozen', False):
+    if getattr(sys, "frozen", False):
         # When running as an executable with PyInstaller
         base_path = sys._MEIPASS
     else:
