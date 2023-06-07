@@ -3,7 +3,7 @@ import os
 import sys
 import pandas as pd
 import urllib.parse
-from app.cleaner import clean_REC_df
+from cleaner import clean_REC_df
 import webbrowser
 
 app = Flask(__name__)
