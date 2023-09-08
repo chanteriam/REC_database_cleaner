@@ -36,11 +36,6 @@ def get_fullpath():
 
 
 @app.route("/", methods=["GET", "POST"])
-def show_index(context={}):
-    return render_template("index.html", **context)
-
-
-@app.route("/upload", methods=["GET", "POST"])
 def upload_data():
     # Reset current working directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -80,7 +75,7 @@ def upload_data():
             return redirect(url_for("download_file", encoded_filepath=encoded_filepath))
 
     messages = get_flashed_messages()
-    return redirect(url_for("app.show_index"))
+    return render_template("index.html", messages=messages)
 
 
 @app.route("/download/<path:encoded_filepath>")
