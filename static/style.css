@@ -1,0 +1,23 @@
+body {
+    margin-top: 20px; /* Replace with your desired margin value */
+}
+
+h1, h2, p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h2 {
+  padding: 10px;
+}
+
+form input,
+form label {
+    font-family: "Source Sans Pro", sans-serif; /* Replace with your desired font family */
+    font-size: 16px; /* Replace with your desired font size */
+}
+
+.logo-image {
+      display: block;
+      margin: 0 auto; /* Center the image horizontally */
+      width: 300px; /* Adjust the width to your desired size */
+}

@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rec-cleaner"
+version = "0.2.0"
+description = "Flask application for cleaning Forefront REC map survey data."
+authors = ["Chanteria Milner <chanteria.milner@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rec_cleaner"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.3"
+numpy = "^1.25.2"
+pandas = "^2.1.0"
+openpyxl = "^3.1.2"
+gunicorn = "^21.2.0"
+blinker = "^1.6.2"
+click = "^8.1.7"
+werkzeug = "^2.3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

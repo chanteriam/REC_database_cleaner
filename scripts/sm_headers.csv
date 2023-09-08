@@ -1,0 +1,403 @@
+Respondent ID
+Collector ID
+Start Date
+End Date
+IP Address
+Email Address
+First Name
+Last Name
+Custom Data 1
+"Is your organization doing racial equity work that seeks to create systemic changes in Illinois through programs, policies, or practitioners?"
+"Does your organization provide direct services such as education, housing, meals, or health care, or does it work on policies or programs to impact racial equity? Please select one."
+Does your organization work in Illinois?
+Please provide your full organization name. 
+"If your organization has another name or acronym that it regularly uses instead of its full name, please type in what that is (For example, the American Civil Liberties Union is regularly known as the ACLU). If no other alternative name is used, write “None” or leave blank. "
+Main website address
+Contact email address
+Main phone number
+"Please enter your organization's mailing address below. If there is no unit/office/apartment information, please continue without answering that box. "
+Company
+Address
+"Address 2 (Unit, Office, Apt, etc.)"
+City/Town
+State/Province
+ZIP/Postal Code
+Country
+Email Address
+Phone Number
+" Does your organization serve Illinois statewide, or only in specific regions? "
+Does your organization service counties in Northern Illinois? 
+Boone
+Bureau
+Carroll
+Cool
+DeKalb
+DuPage
+Grundy
+Henry
+Jo Daviess
+Kane
+Kankakee
+Kendall
+Lake
+LaSalle
+Lee
+McHenry
+Mercer
+Ogle
+Putnam
+Rock Island
+Stephenson
+Whiteside
+Will
+Winnebago
+Does your organization service counties in Central Illinois? 
+Adams
+Brown
+Calhoun
+Cass
+Champaign
+Christian
+Clark
+Coles
+Cumberland
+Dewitt
+Douglas
+Edgar
+Ford
+Fulton
+Greene
+Hancock
+Henderson
+Iroquois
+Jersey
+Knox
+Livingston
+Logan
+Macoupin
+Macon
+Marshall
+Mason
+McDonough
+McLean
+Menard
+Montgomery
+Morgan
+Moultrie
+Peoria
+Piatt
+Pike
+Sangamon
+Schuyler
+Scott
+Shelby
+Stark
+Tazewell
+Vermillion
+Warren
+Woodford
+Does your organization service counties in Southern Illinois? 
+Alexander
+Bond
+Clay
+Clinton
+Crawford
+Edwards
+Effingham
+Fayette
+Franklin
+Gallatin
+Hamilton
+Hardin
+Jackson
+Jasper
+Jefferson
+Johnson
+Lawrence
+Madison
+Marion
+Massac
+Monroe
+Perry
+Pope
+Pulaski
+Randolph
+Richland
+Saline
+Clair
+Union
+Wabash
+Washington
+Wayne
+White
+Williamson
+"Please select one of the following categories that best describes your organization’s type. For definitions, please see Candid’s glossary here: "
+Other (please specify)
+Does your organization use programs in its work to achieve racial equity? 
+Does your organization have more than one program to advance racial equity? 
+Please enter the name of the program. 
+"Please select the main industry/sector of your racial equity program, named {{ Q20 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity program named {{ Q20 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q20 }} been operational? 
+Would you like to report another program?
+Please enter the name of the program. 
+"Please select the main industry/sector of your racial equity program, named {{ Q26 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity program named {{ Q26 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q26 }} been operational? 
+Would you like to report another program?
+Please enter the name of the program. 
+"Please select the main industry/sector of your racial equity program, named {{ Q32 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity program named {{ Q32 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q32 }} been operational? 
+Would you like to report another program?
+Please enter the name of the program. 
+"Please select the main industry/sector of your racial equity program, named {{ Q38 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity program named {{ Q38 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q38 }} been operational? 
+Would you like to report another program?
+Please enter the name of the program. 
+"Please select the main industry/sector of your racial equity program, named {{ Q44 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity program named {{ Q44 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q44 }} been operational? 
+Does your organization use policy or policy initiatives in its work to achieve racial equity? 
+Does your organization have more than one policy or policy initiative to advance racial equity? 
+Please enter the name of the policy or policy initiative. 
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q51 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q51 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q51 }} been operational? 
+Would you like to report another policy or policy initiative?
+Please enter the name of the policy or policy initiative. 
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q57 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q57 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q57 }} been operational? 
+Would you like to report another policy or policy initiative?
+Please enter the name of the policy or policy initiative. 
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q63 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q63 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q63 }} been operational? 
+Would you like to report another policy or policy initiative?
+Please enter the name of the policy or policy initiative. 
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q69 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q69 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q69 }} been operational? 
+Would you like to report another policy or policy initiative?
+Please enter the name of the policy or policy initiative. 
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q75 }}. "
+Workplace Culture
+Policy and Advocacy
+Addressing Hate and White Supremacy
+"Children, Families, and Youth Development"
+Community Planning: Land and Transportation
+Criminal Justice
+Employment and Labor
+Environmental Justice
+Food Justice
+Health and Healthcare
+Housing
+Immigration & Refugee Rights
+Language Justice
+Media & Technology
+Philanthropy
+Reparations
+Reproductive Justice
+"Trauma, Violence, and Healing"
+Voting Rights and Democracy Building
+Other (please specify)
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q75 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. "
+How long has {{ Q75 }} been operational? 
+"In a few words, what is your organization's biggest challenge to advancing racial equity?"
+"Is your organization’s most senior leader (e.g., Chief Executive Officer, President, Chair) an individual who is Black, Indigenous, Latino, or a person of color?"
+"In your estimation, what percentage of leadership staff (e.g., Chief of…, program directors, senior managers, etc.) in your organization are Black, Indigenous, Latino, or people of color?"
+"In your estimation, does more than 50% of your board identify as Black, Indigenous, Latino, or a person of color?"
+Please choose which range below captures the total size of your organization’s paid staff.
+"In your estimation, what percentage of the entire staff in your organization are Black, Indigenous, Latino, or people of color?"
+Do we have consent to feature the information gathered in this form on the Racial Equity Collective mapping tool? Reminder: only the questions labeled with the icon  will be used in the mapping tool. 
+Name
+Phone number
+Email
+Other Organization 1 Name
+Other Organization 1 Email
+Other Organization 2 Name
+Other Organization 2 Email
+Other Organization 3 Name
+Other Organization 3 Email

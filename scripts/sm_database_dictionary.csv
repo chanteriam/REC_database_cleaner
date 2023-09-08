@@ -1,0 +1,404 @@
+heads,mapped,type,response col
+Respondent ID,,,
+Collector ID,,,
+Start Date,,,
+End Date,,,
+IP Address,,,
+Email Address,,,
+First Name,,,
+Last Name,,,
+Custom Data 1,,,
+"Is your organization doing racial equity work that seeks to create systemic changes in Illinois through programs, policies, or practitioners?",Screener: Racial Equity Work,column,
+"Does your organization provide direct services such as education, housing, meals, or health care, or does it work on policies or programs to impact racial equity? Please select one.",Screener: Type of Equity Work,column,
+Does your organization work in Illinois?,Screener: Work in IL,column,
+Please provide your full organization name. ,REC Invited Organization,column,
+"If your organization has another name or acronym that it regularly uses instead of its full name, please type in what that is (For example, the American Civil Liberties Union is regularly known as the ACLU). If no other alternative name is used, write ‚ÄúNone‚Äù or leave blank. ",Organization: Acronym,column,
+Main website address,Organization: Main Website,column,
+Contact email address,REC Respondent Email,column,
+Main phone number,Organization: Main Phone Number,column,
+"Please enter your organization's mailing address below. If there is no unit/office/apartment information, please continue without answering that box. ",,,
+Company,,,
+Address,Mailing Address Line 1,column,
+"Address 2 (Unit, Office, Apt, etc.)",Mailing Address Line 2,column,
+City/Town,Mailing City,column,
+State/Province,Mailing State/Province,column,
+ZIP/Postal Code,Mailing Zip/Postal Code,column,
+Country,,,
+Email Address,,,
+Phone Number,,,
+" Does your organization serve Illinois statewide, or only in specific regions? ",Service Areas,column,
+Does your organization service counties in Northern Illinois? ,"Northern Illinois (consists of the following counties: Boone, Bureau, Carroll, Cook, DeKalb, DuPage, Grundy, Henry, Jo Daviess, Kane, Kankakee, Kendall, Lake, LaSalle, Lee, McHenry, Mercer, Ogle, Putnam, Rock Island, Stephenson, Whiteside, Will, and Winnebago)",response,Service Region
+Boone,Boone,response,Service Region - Northern IL
+Bureau,Bureau,response,Service Region - Northern IL
+Carroll,Carroll,response,Service Region - Northern IL
+Cool,Cool,response,Service Region - Northern IL
+DeKalb,DeKalb,response,Service Region - Northern IL
+DuPage,DuPage,response,Service Region - Northern IL
+Grundy,Grundy,response,Service Region - Northern IL
+Henry,Henry,response,Service Region - Northern IL
+Jo Daviess,Jo Daviess,response,Service Region - Northern IL
+Kane,Kane,response,Service Region - Northern IL
+Kankakee,Kankakee,response,Service Region - Northern IL
+Kendall,Kendall,response,Service Region - Northern IL
+Lake,Lake,response,Service Region - Northern IL
+LaSalle,LaSalle,response,Service Region - Northern IL
+Lee,Lee,response,Service Region - Northern IL
+McHenry,McHenry,response,Service Region - Northern IL
+Mercer,Mercer,response,Service Region - Northern IL
+Ogle,Ogle,response,Service Region - Northern IL
+Putnam,Putnam,response,Service Region - Northern IL
+Rock Island,Rock Island,response,Service Region - Northern IL
+Stephenson,Stephenson,response,Service Region - Northern IL
+Whiteside,Whiteside,response,Service Region - Northern IL
+Will,Will,response,Service Region - Northern IL
+Winnebago,Winnebago,response,Service Region - Northern IL
+Does your organization service counties in Central Illinois? ,"Central Illinois (consists of the following counties: Adams, Brown, Calhoun, Cass, Champaign, Christian, Clark, Coles, Cumberland, Dewitt, Douglas, Edgar, Ford, Fulton, Greene, Hancock, Henderson, Iroquois, Jersey, Knox, Livingston, Logan, Macoupin, Macon, Marshall, Mason, McDonough, McLean, Menard, Montgomery, Morgan, Moultrie, Peoria, Piatt, Pike, Sangamon, Schuyler, Scott, Shelby, Stark, Tazewell, Vermillion, Warren, Woodford)",response,Service Region
+Adams,Adams,response,Service Region - Central IL
+Brown,Brown,response,Service Region - Central IL
+Calhoun,Calhoun,response,Service Region - Central IL
+Cass,Cass,response,Service Region - Central IL
+Champaign,Champaign,response,Service Region - Central IL
+Christian,Christian,response,Service Region - Central IL
+Clark,Clark,response,Service Region - Central IL
+Coles,Coles,response,Service Region - Central IL
+Cumberland,Cumberland,response,Service Region - Central IL
+Dewitt,Dewitt,response,Service Region - Central IL
+Douglas,Douglas,response,Service Region - Central IL
+Edgar,Edgar,response,Service Region - Central IL
+Ford,Ford,response,Service Region - Central IL
+Fulton,Fulton,response,Service Region - Central IL
+Greene,Greene,response,Service Region - Central IL
+Hancock,Hancock,response,Service Region - Central IL
+Henderson,Henderson,response,Service Region - Central IL
+Iroquois,Iroquois,response,Service Region - Central IL
+Jersey,Jersey,response,Service Region - Central IL
+Knox,Knox,response,Service Region - Central IL
+Livingston,Livingston,response,Service Region - Central IL
+Logan,Logan,response,Service Region - Central IL
+Macoupin,Macoupin,response,Service Region - Central IL
+Macon,Macon,response,Service Region - Central IL
+Marshall,Marshall,response,Service Region - Central IL
+Mason,Mason,response,Service Region - Central IL
+McDonough,McDonough,response,Service Region - Central IL
+McLean,McLean,response,Service Region - Central IL
+Menard,Menard,response,Service Region - Central IL
+Montgomery,Montgomery,response,Service Region - Central IL
+Morgan,Morgan,response,Service Region - Central IL
+Moultrie,Moultrie,response,Service Region - Central IL
+Peoria,Peoria,response,Service Region - Central IL
+Piatt,Piatt,response,Service Region - Central IL
+Pike,Pike,response,Service Region - Central IL
+Sangamon,Sangamon,response,Service Region - Central IL
+Schuyler,Schuyler,response,Service Region - Central IL
+Scott,Scott,response,Service Region - Central IL
+Shelby,Shelby,response,Service Region - Central IL
+Stark,Stark,response,Service Region - Central IL
+Tazewell,Tazewell,response,Service Region - Central IL
+Vermillion,Vermillion,response,Service Region - Central IL
+Warren,Warren,response,Service Region - Central IL
+Woodford,Woodford,response,Service Region - Central IL
+Does your organization service counties in Southern Illinois? ,"Southern Illinois (consists of the following counties: Alexander, Bond, Clay, Clinton, Crawford, Edwards, Effingham, Fayette, Franklin, Gallatin, Hamilton, Hardin, Jackson, Jasper, Jefferson, Johnson, Lawrence, Madison, Marion, Massac, Monroe, Perry, Pope, Pulaski, Randolph, Richland, Saline, St. Clair, Union, Wabash, Washington, Wayne, White, Williamson)",response,Service Region
+Alexander,Alexander,response,Service Region - Southern IL
+Bond,Bond,response,Service Region - Southern IL
+Clay,Clay,response,Service Region - Southern IL
+Clinton,Clinton,response,Service Region - Southern IL
+Crawford,Crawford,response,Service Region - Southern IL
+Edwards,Edwards,response,Service Region - Southern IL
+Effingham,Effingham,response,Service Region - Southern IL
+Fayette,Fayette,response,Service Region - Southern IL
+Franklin,Franklin,response,Service Region - Southern IL
+Gallatin,Gallatin,response,Service Region - Southern IL
+Hamilton,Hamilton,response,Service Region - Southern IL
+Hardin,Hardin,response,Service Region - Southern IL
+Jackson,Jackson,response,Service Region - Southern IL
+Jasper,Jasper,response,Service Region - Southern IL
+Jefferson,Jefferson,response,Service Region - Southern IL
+Johnson,Johnson,response,Service Region - Southern IL
+Lawrence,Lawrence,response,Service Region - Southern IL
+Madison,Madison,response,Service Region - Southern IL
+Marion,Marion,response,Service Region - Southern IL
+Massac,Massac,response,Service Region - Southern IL
+Monroe,Monroe,response,Service Region - Southern IL
+Perry,Perry,response,Service Region - Southern IL
+Pope,Pope,response,Service Region - Southern IL
+Pulaski,Pulaski,response,Service Region - Southern IL
+Randolph,Randolph,response,Service Region - Southern IL
+Richland,Richland,response,Service Region - Southern IL
+Saline,Saline,response,Service Region - Southern IL
+Clair,Clair,response,Service Region - Southern IL
+Union,Union,response,Service Region - Southern IL
+Wabash,Wabash,response,Service Region - Southern IL
+Washington,Washington,response,Service Region - Southern IL
+Wayne,Wayne,response,Service Region - Southern IL
+White,White,response,Service Region - Southern IL
+Williamson,Williamson,response,Service Region - Southern IL
+"Please select one of the following categories that best describes your organization‚Äôs type. For definitions, please see Candid‚Äôs glossary here: ",Type,response,Type
+Other (please specify),Type - Other,response,Type
+Does your organization use programs in its work to achieve racial equity? ,Programs (“Program: A plan or system under which action may be taken toward a goal.”)  ,response,Type of Racial Equity Work
+Does your organization have more than one program to advance racial equity? ,More than One Program,column,
+Please enter the name of the program. ,Program 1 Name,column,
+"Please select the main industry/sector of your racial equity program, named {{ Q20 }}. ",Program 1 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Program 1 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Program 1 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Program 1 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Program 1 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Program 1 Equity Topics
+Criminal Justice,Criminal Justice,response,Program 1 Equity Topics
+Employment and Labor,Employment and Labor,response,Program 1 Equity Topics
+Environmental Justice,Environmental Justice,response,Program 1 Equity Topics
+Food Justice,Food Justice,response,Program 1 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Program 1 Equity Topics
+Housing,Housing,response,Program 1 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Program 1 Equity Topics
+Language Justice,Language Justice,response,Program 1 Equity Topics
+Media & Technology,Media & Technology,response,Program 1 Equity Topics
+Philanthropy,Philanthropy,response,Program 1 Equity Topics
+Reparations,Reparations,response,Program 1 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Program 1 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Program 1 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Program 1 Equity Topics
+Other (please specify),Other (please specify),response,Program 1 Equity Topics
+"Please enter a brief description of your racial equity program named {{ Q20 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Program 1 Description,column,
+How long has {{ Q20 }} been operational? ,Program 1 Years Operational,column,
+Would you like to report another program?,,,
+Please enter the name of the program. ,Program 2 Name,column,
+"Please select the main industry/sector of your racial equity program, named {{ Q26 }}. ",Program 2 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Program 2 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Program 2 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Program 2 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Program 2 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Program 2 Equity Topics
+Criminal Justice,Criminal Justice,response,Program 2 Equity Topics
+Employment and Labor,Employment and Labor,response,Program 2 Equity Topics
+Environmental Justice,Environmental Justice,response,Program 2 Equity Topics
+Food Justice,Food Justice,response,Program 2 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Program 2 Equity Topics
+Housing,Housing,response,Program 2 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Program 2 Equity Topics
+Language Justice,Language Justice,response,Program 2 Equity Topics
+Media & Technology,Media & Technology,response,Program 2 Equity Topics
+Philanthropy,Philanthropy,response,Program 2 Equity Topics
+Reparations,Reparations,response,Program 2 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Program 2 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Program 2 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Program 2 Equity Topics
+Other (please specify),Other (please specify),response,Program 2 Equity Topics
+"Please enter a brief description of your racial equity program named {{ Q26 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Program 2 Description,column,
+How long has {{ Q26 }} been operational? ,Program 2 Years Operational,column,
+Would you like to report another program?,,,
+Please enter the name of the program. ,Program 3 Name,column,
+"Please select the main industry/sector of your racial equity program, named {{ Q32 }}. ",Program 3 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Program 3 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Program 3 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Program 3 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Program 3 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Program 3 Equity Topics
+Criminal Justice,Criminal Justice,response,Program 3 Equity Topics
+Employment and Labor,Employment and Labor,response,Program 3 Equity Topics
+Environmental Justice,Environmental Justice,response,Program 3 Equity Topics
+Food Justice,Food Justice,response,Program 3 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Program 3 Equity Topics
+Housing,Housing,response,Program 3 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Program 3 Equity Topics
+Language Justice,Language Justice,response,Program 3 Equity Topics
+Media & Technology,Media & Technology,response,Program 3 Equity Topics
+Philanthropy,Philanthropy,response,Program 3 Equity Topics
+Reparations,Reparations,response,Program 3 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Program 3 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Program 3 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Program 3 Equity Topics
+Other (please specify),Other (please specify),response,Program 3 Equity Topics
+"Please enter a brief description of your racial equity program named {{ Q32 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Program 3 Description,column,
+How long has {{ Q32 }} been operational? ,Program 3 Years Operational,column,
+Would you like to report another program?,,,
+Please enter the name of the program. ,Program 4 Name,column,
+"Please select the main industry/sector of your racial equity program, named {{ Q38 }}. ",Program 4 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Program 4 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Program 4 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Program 4 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Program 4 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Program 4 Equity Topics
+Criminal Justice,Criminal Justice,response,Program 4 Equity Topics
+Employment and Labor,Employment and Labor,response,Program 4 Equity Topics
+Environmental Justice,Environmental Justice,response,Program 4 Equity Topics
+Food Justice,Food Justice,response,Program 4 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Program 4 Equity Topics
+Housing,Housing,response,Program 4 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Program 4 Equity Topics
+Language Justice,Language Justice,response,Program 4 Equity Topics
+Media & Technology,Media & Technology,response,Program 4 Equity Topics
+Philanthropy,Philanthropy,response,Program 4 Equity Topics
+Reparations,Reparations,response,Program 4 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Program 4 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Program 4 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Program 4 Equity Topics
+Other (please specify),Other (please specify),response,Program 4 Equity Topics
+"Please enter a brief description of your racial equity program named {{ Q38 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Program 4 Description,column,
+How long has {{ Q38 }} been operational? ,Program 4 Years Operational,column,
+Would you like to report another program?,,,
+Please enter the name of the program. ,Program 5 Name,column,
+"Please select the main industry/sector of your racial equity program, named {{ Q44 }}. ",Program 5 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Program 5 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Program 5 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Program 5 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Program 5 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Program 5 Equity Topics
+Criminal Justice,Criminal Justice,response,Program 5 Equity Topics
+Employment and Labor,Employment and Labor,response,Program 5 Equity Topics
+Environmental Justice,Environmental Justice,response,Program 5 Equity Topics
+Food Justice,Food Justice,response,Program 5 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Program 5 Equity Topics
+Housing,Housing,response,Program 5 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Program 5 Equity Topics
+Language Justice,Language Justice,response,Program 5 Equity Topics
+Media & Technology,Media & Technology,response,Program 5 Equity Topics
+Philanthropy,Philanthropy,response,Program 5 Equity Topics
+Reparations,Reparations,response,Program 5 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Program 5 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Program 5 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Program 5 Equity Topics
+Other (please specify),Other (please specify),response,Program 5 Equity Topics
+"Please enter a brief description of your racial equity program named {{ Q44 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Program 5 Description,column,
+How long has {{ Q44 }} been operational? ,Program 5 Years Operational,column,
+Does your organization use policy or policy initiatives in its work to achieve racial equity? ,"Policy or Policy Initiative (Policy: “a set of ideas or plans that is used as a basis for making decisions, especially in politics, economics, or business.” Initiative: “an important act or statement that is intended to solve a problem.”) ",response,Type of Racial Equity Work
+Does your organization have more than one policy or policy initiative to advance racial equity? ,More than One Policy,column,
+Please enter the name of the policy or policy initiative. ,Policy 1 Name,column,
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q51 }}. ",Policy 1 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Policy 1 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Policy 1 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Policy 1 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Policy 1 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Policy 1 Equity Topics
+Criminal Justice,Criminal Justice,response,Policy 1 Equity Topics
+Employment and Labor,Employment and Labor,response,Policy 1 Equity Topics
+Environmental Justice,Environmental Justice,response,Policy 1 Equity Topics
+Food Justice,Food Justice,response,Policy 1 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Policy 1 Equity Topics
+Housing,Housing,response,Policy 1 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Policy 1 Equity Topics
+Language Justice,Language Justice,response,Policy 1 Equity Topics
+Media & Technology,Media & Technology,response,Policy 1 Equity Topics
+Philanthropy,Philanthropy,response,Policy 1 Equity Topics
+Reparations,Reparations,response,Policy 1 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Policy 1 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Policy 1 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Policy 1 Equity Topics
+Other (please specify),Other (please specify),response,Policy 1 Equity Topics
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q51 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Policy 1 Description,column,
+How long has {{ Q51 }} been operational? ,Policy 1 Years Operational,column,
+Would you like to report another policy or policy initiative?,,,
+Please enter the name of the policy or policy initiative. ,Policy 2 Name,column,
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q57 }}. ",Policy 2 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Policy 2 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Policy 2 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Policy 2 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Policy 2 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Policy 2 Equity Topics
+Criminal Justice,Criminal Justice,response,Policy 2 Equity Topics
+Employment and Labor,Employment and Labor,response,Policy 2 Equity Topics
+Environmental Justice,Environmental Justice,response,Policy 2 Equity Topics
+Food Justice,Food Justice,response,Policy 2 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Policy 2 Equity Topics
+Housing,Housing,response,Policy 2 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Policy 2 Equity Topics
+Language Justice,Language Justice,response,Policy 2 Equity Topics
+Media & Technology,Media & Technology,response,Policy 2 Equity Topics
+Philanthropy,Philanthropy,response,Policy 2 Equity Topics
+Reparations,Reparations,response,Policy 2 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Policy 2 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Policy 2 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Policy 2 Equity Topics
+Other (please specify),Other (please specify),response,Policy 2 Equity Topics
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q57 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Policy 2 Description,column,
+How long has {{ Q57 }} been operational? ,Policy 2 Years Operational,column,
+Would you like to report another policy or policy initiative?,,,
+Please enter the name of the policy or policy initiative. ,Policy 3 Name,column,
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q63 }}. ",Policy 3 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Policy 3 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Policy 3 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Policy 3 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Policy 3 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Policy 3 Equity Topics
+Criminal Justice,Criminal Justice,response,Policy 3 Equity Topics
+Employment and Labor,Employment and Labor,response,Policy 3 Equity Topics
+Environmental Justice,Environmental Justice,response,Policy 3 Equity Topics
+Food Justice,Food Justice,response,Policy 3 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Policy 3 Equity Topics
+Housing,Housing,response,Policy 3 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Policy 3 Equity Topics
+Language Justice,Language Justice,response,Policy 3 Equity Topics
+Media & Technology,Media & Technology,response,Policy 3 Equity Topics
+Philanthropy,Philanthropy,response,Policy 3 Equity Topics
+Reparations,Reparations,response,Policy 3 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Policy 3 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Policy 3 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Policy 3 Equity Topics
+Other (please specify),Other (please specify),response,Policy 3 Equity Topics
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q63 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Policy 3 Description,column,
+How long has {{ Q63 }} been operational? ,Policy 3 Years Operational,column,
+Would you like to report another policy or policy initiative?,,,
+Please enter the name of the policy or policy initiative. ,Policy 4 Name,column,
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q69 }}. ",Policy 4 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Policy 4 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Policy 4 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Policy 4 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Policy 4 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Policy 4 Equity Topics
+Criminal Justice,Criminal Justice,response,Policy 4 Equity Topics
+Employment and Labor,Employment and Labor,response,Policy 4 Equity Topics
+Environmental Justice,Environmental Justice,response,Policy 4 Equity Topics
+Food Justice,Food Justice,response,Policy 4 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Policy 4 Equity Topics
+Housing,Housing,response,Policy 4 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Policy 4 Equity Topics
+Language Justice,Language Justice,response,Policy 4 Equity Topics
+Media & Technology,Media & Technology,response,Policy 4 Equity Topics
+Philanthropy,Philanthropy,response,Policy 4 Equity Topics
+Reparations,Reparations,response,Policy 4 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Policy 4 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Policy 4 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Policy 4 Equity Topics
+Other (please specify),Other (please specify),response,Policy 4 Equity Topics
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q69 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Policy 4 Description,column,
+How long has {{ Q69 }} been operational? ,Policy 4 Years Operational,column,
+Would you like to report another policy or policy initiative?,,,
+Please enter the name of the policy or policy initiative. ,Policy 5 Name,column,
+"Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q75 }}. ",Policy 5 Industry Area,column,
+Workplace Culture,Workplace Culture,response,Policy 5 Equity Topics
+Policy and Advocacy,Policy and Advocacy,response,Policy 5 Equity Topics
+Addressing Hate and White Supremacy,Addressing Hate and White Supremacy,response,Policy 5 Equity Topics
+"Children, Families, and Youth Development","Children, Families, and Youth Development",response,Policy 5 Equity Topics
+Community Planning: Land and Transportation,Community Planning: Land and Transportation,response,Policy 5 Equity Topics
+Criminal Justice,Criminal Justice,response,Policy 5 Equity Topics
+Employment and Labor,Employment and Labor,response,Policy 5 Equity Topics
+Environmental Justice,Environmental Justice,response,Policy 5 Equity Topics
+Food Justice,Food Justice,response,Policy 5 Equity Topics
+Health and Healthcare,Health and Healthcare,response,Policy 5 Equity Topics
+Housing,Housing,response,Policy 5 Equity Topics
+Immigration & Refugee Rights,Immigration & Refugee Rights,response,Policy 5 Equity Topics
+Language Justice,Language Justice,response,Policy 5 Equity Topics
+Media & Technology,Media & Technology,response,Policy 5 Equity Topics
+Philanthropy,Philanthropy,response,Policy 5 Equity Topics
+Reparations,Reparations,response,Policy 5 Equity Topics
+Reproductive Justice,Reproductive Justice,response,Policy 5 Equity Topics
+"Trauma, Violence, and Healing","Trauma, Violence, and Healing",response,Policy 5 Equity Topics
+Voting Rights and Democracy Building,Voting Rights and Democracy Building,response,Policy 5 Equity Topics
+Other (please specify),Other (please specify),response,Policy 5 Equity Topics
+"Please enter a brief description of your racial equity policy or policy initiative named {{ Q75 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Policy 5 Description,column,
+How long has {{ Q75 }} been operational? ,Policy 5 Years Operational,column,
+"In a few words, what is your organization's biggest challenge to advancing racial equity?",Racial Equity Challenge,column,
+"Is your organization‚Äôs most senior leader (e.g., Chief Executive Officer, President, Chair) an individual who is Black, Indigenous, Latino, or a person of color?",BIPOC Staff: Senior Leader,column,
+"In your estimation, what percentage of leadership staff (e.g., Chief of‚Ä¶, program directors, senior managers, etc.) in your organization are Black, Indigenous, Latino, or people of color?",BIPOC Staff: Leadership Percentage,column,
+"In your estimation, does more than 50% of your board identify as Black, Indigenous, Latino, or a person of color?",BIPOC Staff: Majority,column,
+Please choose which range below captures the total size of your organization‚Äôs paid staff.,Organization: Staff Size Range,column,
+"In your estimation, what percentage of the entire staff in your organization are Black, Indigenous, Latino, or people of color?",BIPOC Staff: Percenage,column,
+Do we have consent to feature the information gathered in this form on the Racial Equity Collective mapping tool? Reminder: only the questions labeled with the icon  will be used in the mapping tool. ,Consent,column,
+Name,Racial Equity Contact: Name,column,
+Phone number,Racial Equity Contact: Phone,column,
+Email,Racial Equity Contact: Email,column,
+Other Organization 1 Name,Other Organization 1 Name,column,
+Other Organization 1 Email,Other Organization 1 Email,column,
+Other Organization 2 Name,Other Organization 2 Name,column,
+Other Organization 2 Email,Other Organization 2 Email,column,
+Other Organization 3 Name,Other Organization 3 Name,column,
+Other Organization 3 Email,Other Organization 3 Email,column,
