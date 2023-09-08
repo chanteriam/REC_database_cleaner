@@ -6,7 +6,7 @@ var_dict_fp_q = "qualtrics_database_dictionary.csv"
 VARIABLE_DICTIONARY_Q = read_variable_dict(var_dict_fp_q)
 
 # Survey monkey variable dictionary
-var_dict_fp_s = "/Users/shaymilner/Documents/NORC/GRA_CER/REC_database_cleaner/scripts/sm_database_dictionary.csv"
+var_dict_fp_s = "scripts/sm_database_dictionary.csv"
 VARIABLE_DICTIONARY_S = pd.read_csv(var_dict_fp_s, header=0, encoding="latin-1")
 
 VARIABLE_DICT_MAP = {
