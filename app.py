@@ -56,6 +56,7 @@ def upload_data():
             full_outpath = os.path.join(fullpath, outpath)
 
             df = main(fullpath, inpath, source)
+            print("RENDERED")
 
             if ".csv" in full_outpath:
                 full_outpath = full_outpath.split(".csv")[0] + ".xlsx"
