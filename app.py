@@ -52,13 +52,6 @@ def upload_data():
             outpath = os.path.join("output", filename)
             fullpath = get_fullpath()
 
-            # make sure the input and output folders exist
-            if not os.path.exists(os.path.join(fullpath, "input")):
-                os.makedirs(os.path.join(fullpath, "input"))
-
-            if not os.path.exists(os.path.join(fullpath, "output")):
-                os.makedirs(os.path.join(fullpath, "output"))
-
             xlsx_upload.save(os.path.join(fullpath, inpath))
             full_outpath = os.path.join(fullpath, outpath)
 
