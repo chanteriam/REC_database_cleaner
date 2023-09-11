@@ -17,7 +17,7 @@ Ensure you are in the project working directory and run the below code to launch
 python -m flask run [--debug]
 ```
 
-Any frontend changes that you make it the code will be reflected in the Flask application.
+Any frontend changes that you make it the code will be reflected in the Flask application if launch the Flask application in debug mode (by using the `--debug` flag).
 
 There is also a command-line argument you can run to process your uncleaned REC Map data. To do so, open the project directory in your code editor and run the following command in the terminal:
 
