@@ -9,6 +9,8 @@ from scripts.constants import (
     bool_cols,
     output_cols,
     other_org_cols,
+    years_operational_map,
+    bipoc_staff_perc_map,
 )
 from scripts.utils import get_sm_headers
 
@@ -32,6 +34,21 @@ class Cleaner:
 
         self.variable_dict = variable_dict
         self.cleaned = None
+
+    def remove_test(self):
+        """
+        Removes test data from the cleaned df, identified by any cells
+        containing "test".
+        """
+        self.cleaned = self.cleaned.loc[
+            ~(
+                self.cleaned.apply(
+                    lambda row: row.astype(str).str.contains("test", case=False).any(),
+                    axis=1,
+                )
+            ),
+            :,
+        ]
 
     def clean_data(self):
         pass
@@ -122,6 +139,16 @@ class SMCleaner(Cleaner):
         df.iloc[:, SM_COL_MAP["Service Region"]] = df.iloc[
             :, SM_COL_MAP["Service Region"]
         ].apply(lambda x: self.rename_cols(x))
+
+        # Ensure years have a space around the hiphens
+        df.iloc[:, SM_COL_MAP["Years Operational"]] = df.iloc[
+            :, SM_COL_MAP["Years Operational"]
+        ].replace(years_operational_map)
+
+        # Fix Staff and Leadership percentages
+        df.iloc[:, SM_COL_MAP["BIPOC Staff Percentages"]] = df.iloc[
+            :, SM_COL_MAP["BIPOC Staff Percentages"]
+        ].replace(bipoc_staff_perc_map)
 
         rec = df.iloc[:, acc_col_idx]
         rec.columns = list(accurate_cols.loc[:, "mapped"])
@@ -217,5 +244,10 @@ def main(fullpath, filename, source):
     else:
         cleaner = SMCleaner(fullpath, filename, VARIABLE_DICT_MAP[source.lower()])
 
+    # Clean input data
     cleaner.clean_data()
+
+    # Remove any test or filler data
+    cleaner.remove_test()
+
     return cleaner.cleaned

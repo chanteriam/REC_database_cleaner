@@ -32,8 +32,16 @@ SM_COL_MAP = {
     "Policy 3 Equity Topics": [i for i in range(315, 335)],
     "Policy 4 Equity Topics": [i for i in range(340, 360)],
     "Policy 5 Equity Topics": [i for i in range(365, 385)],
+    "Years Operational": [160, 185, 210, 235, 260, 286, 311, 336, 361, 386],
+    "BIPOC Staff Percentages": [389, 392],
 }
 
+years_operational_map = {"1-4 years": "1 - 4 years", "5-9 years": "5 - 9 years"}
+bipoc_staff_perc_map = {
+    "25%-50%": "25% to 50%",
+    "51%-75%": "51% to 75%",
+    "76%-100%": "76% to 100%",
+}
 
 output_cols = [
     "REC Invited Organization",
