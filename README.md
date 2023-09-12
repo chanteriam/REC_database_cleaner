@@ -1,4 +1,6 @@
 # Forefront Racial Equity Collective Database Cleaner
+<img width="1149" alt="image" src="https://github.com/chanteriam/REC_database_cleaner/assets/68039600/63157cec-f6c5-4b2d-b3d7-6c5298e4a1ed">
+
 This repository includes scripts for cleaning Forefront's Racial Equity Collective Map survey data.
 The scripts allow data cleaning from both the Qualtrics and the Survey Monkey surveys. The cleaner
 application is hosted on Render, and it can be launched through this website: https://rec-database-cleaner.onrender.com.
