@@ -15,6 +15,7 @@ import pandas as pd
 import urllib.parse
 from scripts.cleaner import main
 import webbrowser
+from datetime import date
 
 app = Flask(__name__)
 app.secret_key = "your_secret_key_here"  # Set your secret key
@@ -77,7 +78,11 @@ def download_file(encoded_filepath):
     filepath = urllib.parse.unquote_plus(encoded_filepath)  # Decode the file path
     directory, filename = os.path.split(filepath)
 
-    cleaned_filename = os.path.splitext(filename)[0] + "_cleaned.xlsx"
+    today = date.today()
+
+    cleaned_filename = (
+        os.path.splitext(filename)[0] + f"_cleaned_{today.strftime('%m%d%Y')}.xlsx"
+    )
     return send_file(filepath, as_attachment=True, download_name=cleaned_filename)
 
 
