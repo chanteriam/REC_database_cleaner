@@ -134,7 +134,7 @@ White,White,response,Service Region - Southern IL
 Williamson,Williamson,response,Service Region - Southern IL
 "Please select one of the following categories that best describes your organizationâ€™s type. For definitions, please see Candidâ€™s glossary here: ",Type,response,Type
 Other (please specify),Type - Other,response,Type
-Does your organization use programs in its work to achieve racial equity? ,Programs (ÒProgram: A plan or system under which action may be taken toward a goal.Ó)  ,response,Type of Racial Equity Work
+Does your organization use programs in its work to achieve racial equity? ,Programs (ï¿½Program: A plan or system under which action may be taken toward a goal.ï¿½)  ,response,Type of Racial Equity Work
 Does your organization have more than one program to advance racial equity? ,More than One Program,column,
 Please enter the name of the program. ,Program 1 Name,column,
 "Please select the main industry/sector of your racial equity program, named {{ Q20 }}. ",Program 1 Industry Area,column,
@@ -260,7 +260,7 @@ Voting Rights and Democracy Building,Voting Rights and Democracy Building,respon
 Other (please specify),Other (please specify),response,Program 5 Equity Topics
 "Please enter a brief description of your racial equity program named {{ Q44 }}. This description will appear on the Racial Equity Collective mapping tool, so please write it as you would like it to appear. ",Program 5 Description,column,
 How long has {{ Q44 }} been operational? ,Program 5 Years Operational,column,
-Does your organization use policy or policy initiatives in its work to achieve racial equity? ,"Policy or Policy Initiative (Policy: Òa set of ideas or plans that is used as a basis for making decisions, especially in politics, economics, or business.Ó Initiative: Òan important act or statement that is intended to solve a problem.Ó) ",response,Type of Racial Equity Work
+Does your organization use policy or policy initiatives in its work to achieve racial equity? ,"Policy or Policy Initiative (Policy: ï¿½a set of ideas or plans that is used as a basis for making decisions, especially in politics, economics, or business.ï¿½ Initiative: ï¿½an important act or statement that is intended to solve a problem.ï¿½) ",response,Type of Racial Equity Work
 Does your organization have more than one policy or policy initiative to advance racial equity? ,More than One Policy,column,
 Please enter the name of the policy or policy initiative. ,Policy 1 Name,column,
 "Please select the main industry/sector of your racial equity policy or policy initiative, named {{ Q51 }}. ",Policy 1 Industry Area,column,
@@ -391,7 +391,7 @@ How long has {{ Q75 }} been operational? ,Policy 5 Years Operational,column,
 "In your estimation, what percentage of leadership staff (e.g., Chief ofâ€¦, program directors, senior managers, etc.) in your organization are Black, Indigenous, Latino, or people of color?",BIPOC Staff: Leadership Percentage,column,
 "In your estimation, does more than 50% of your board identify as Black, Indigenous, Latino, or a person of color?",BIPOC Staff: Majority,column,
 Please choose which range below captures the total size of your organizationâ€™s paid staff.,Organization: Staff Size Range,column,
-"In your estimation, what percentage of the entire staff in your organization are Black, Indigenous, Latino, or people of color?",BIPOC Staff: Percenage,column,
+"In your estimation, what percentage of the entire staff in your organization are Black, Indigenous, Latino, or people of color?",BIPOC Staff: Percentage,column,
 Do we have consent to feature the information gathered in this form on the Racial Equity Collective mapping tool? Reminder: only the questions labeled with the icon  will be used in the mapping tool. ,Consent,column,
 Name,Racial Equity Contact: Name,column,
 Phone number,Racial Equity Contact: Phone,column,

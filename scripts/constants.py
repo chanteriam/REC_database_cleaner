@@ -14,6 +14,8 @@ VARIABLE_DICT_MAP = {
     "survey monkey": VARIABLE_DICTIONARY_S,
 }
 
+SM_COLS_FP = "scripts/sm_cols.csv"
+
 # Survey Monkey constants
 SM_COL_MAP = {
     "Service Region": [28, 53, 98],
@@ -124,7 +126,7 @@ output_cols = [
     "BIPOC Staff: Leadership Percentage",
     "BIPOC Staff: Majority",
     "Organization: Staff Size Range",
-    "BIPOC Staff: Percenage",
+    "BIPOC Staff: Percentage",
     "Consent",
     "Racial Equity Contact: Name",
     "Racial Equity Contact: Phone",
@@ -152,3 +154,5 @@ other_org_cols = [
     "Other Organization 2 Email",
     "Other Organization 3 Email",
 ]
+
+other_cols = [158, 183, 208, 233, 258, 284, 309, 334, 359, 384]

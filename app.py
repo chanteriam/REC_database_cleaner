@@ -46,22 +46,22 @@ def upload_data():
         if request.files:
             source = request.form["source"]
 
-            xlsx_upload = request.files["file"]
-            filename = xlsx_upload.filename
+            upload = request.files["file"]
+            filename = upload.filename
 
             inpath = os.path.join("input", filename)
             outpath = os.path.join("output", filename)
             fullpath = get_fullpath()
 
-            xlsx_upload.save(os.path.join(fullpath, inpath))
+            upload.save(os.path.join(fullpath, inpath))
             full_outpath = os.path.join(fullpath, outpath)
 
             df = main(fullpath, inpath, source)
             print("RENDERED")
 
-            if ".csv" in full_outpath:
-                full_outpath = full_outpath.split(".csv")[0] + ".xlsx"
-            df.to_excel(full_outpath, index=False)
+            if ".xlsx" in full_outpath:
+                full_outpath = full_outpath.split(".xlsx")[0] + ".csv"
+            df.to_csv(full_outpath, index=False)
 
             encoded_filepath = urllib.parse.quote_plus(
                 full_outpath
@@ -81,7 +81,7 @@ def download_file(encoded_filepath):
     today = date.today()
 
     cleaned_filename = (
-        os.path.splitext(filename)[0] + f"_cleaned_{today.strftime('%m%d%Y')}.xlsx"
+        os.path.splitext(filename)[0] + f"_cleaned_{today.strftime('%m%d%Y')}.csv"
     )
     return send_file(filepath, as_attachment=True, download_name=cleaned_filename)
 

@@ -6,11 +6,13 @@ import sys
 from scripts.constants import (
     VARIABLE_DICT_MAP,
     SM_COL_MAP,
+    SM_COLS_FP,
     bool_cols,
     output_cols,
     other_org_cols,
     years_operational_map,
     bipoc_staff_perc_map,
+    other_cols,
 )
 from scripts.utils import get_sm_headers
 
@@ -114,6 +116,15 @@ class SMCleaner(Cleaner):
     Implements Cleaner class for Survey Monkey (SM) data.
     """
 
+    def __init__(self, fullpath, filename, variable_dict):
+        super().__init__(fullpath, filename, variable_dict)
+
+        # assert file
+        correct_cols = pd.read_csv(SM_COLS_FP)
+        assert list(self.data.columns) == list(
+            correct_cols.columns
+        ), "PLEASE ENSURE THAT YOU ARE DOWNLOADING SURVEY MONKEY DATA USING CONDENSED COLUMNS"
+
     def clean_data(self):
         """
         Cleans inputted survey monkey data.
@@ -149,6 +160,11 @@ class SMCleaner(Cleaner):
         df.iloc[:, SM_COL_MAP["BIPOC Staff Percentages"]] = df.iloc[
             :, SM_COL_MAP["BIPOC Staff Percentages"]
         ].replace(bipoc_staff_perc_map)
+
+        # Ensire Equity Topics "Other (please specify)" is just "Other"
+        df.iloc[:, other_cols] = df.iloc[:, other_cols].applymap(
+            lambda x: x if str(x) == "nan" else "Other"
+        )
 
         rec = df.iloc[:, acc_col_idx]
         rec.columns = list(accurate_cols.loc[:, "mapped"])

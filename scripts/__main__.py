@@ -17,8 +17,8 @@ if __name__ == "__main__":
     ext = filename.split(".")[-1]
     ext = "." + ext
     new_filename = (
-        filename.split(ext)[0] + f"_cleaned_{today.strftime('%m%d%Y')}" + ".xlsx"
+        filename.split(ext)[0] + f"_cleaned_{today.strftime('%m%d%Y')}" + ".csv"
     )
 
-    rec.to_excel(os.path.join(fullpath, new_filename), index=False)
+    rec.to_csv(os.path.join(fullpath, new_filename), index=False)
     print("FILE SAVED TO:", os.path.join(fullpath, new_filename))
